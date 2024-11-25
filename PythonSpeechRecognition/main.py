@@ -27,11 +27,7 @@ def recognize_speech(model):
     stream = p.open(format=pyaudio.paInt16, channels=1, rate=8000, input=True, frames_per_buffer=8000)
     stream.start_stream()
 
-<<<<<<< HEAD
     print("Скажите что-нибудь...")
-=======
-    print("Начинайте говорить...")
->>>>>>> origin/main
 
     # Распознавание «на лету» с микрофона
     while True:
