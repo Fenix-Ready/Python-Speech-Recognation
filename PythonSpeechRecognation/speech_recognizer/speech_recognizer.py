@@ -21,7 +21,7 @@ class SpeechRecognizer:
                 print(result)
                 return json.loads(result)['text']
 
-    def close(self):
-        self.stream.stop_stream()
-        self.stream.close()
-        self.p.terminate()
+    # def close(self):
+    # self.stream.stop_stream()
+    # self.stream.close()
+    # self.p.terminate()
