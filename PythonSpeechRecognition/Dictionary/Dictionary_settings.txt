@@ -1,4 +1,0 @@
-{
-    "ru": "/path/to/vosk-model-ru-0.10",
-    "en": "/path/to/vosk-model-en-us-0.22"
-}
