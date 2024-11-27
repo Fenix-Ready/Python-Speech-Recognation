@@ -20,7 +20,7 @@ class VoiceAssistant:
                     command = recognizer.recognize()
                     if command:
                         command_processor.process_command(command)
-                        recognizer.close()
+                        # recognizer.close()
         else:
             print("Язык не поддерживается. Используется русский язык по умолчанию.")
             model = self.language_model.load_model('ru')
@@ -31,7 +31,7 @@ class VoiceAssistant:
                     command = recognizer.recognize()
                     if command:
                         command_processor.process_command(command)
-                        recognizer.close()
+                        # recognizer.close()
 
 
 if __name__ == "__main__":
